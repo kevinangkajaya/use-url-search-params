@@ -28,6 +28,7 @@ return(
 
 ### Props initUrlSearchParam
 | Name | Value | Default | Description  |
+| ------------- | ------------- | --- | -----|
 | router | NextJsRouter | null | You need to pass an instance of router (from useRouter) to this variable |
 
 ### Props useUrlSearchParam
