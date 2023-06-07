@@ -1,11 +1,11 @@
 {
-  "name": "@kevinangkajaya/react-library-template",
+  "name": "@kevinangkajaya/use-url-search-params",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinangkajaya/react-library-template"
+    "url": "https://github.com/kevinangkajaya/use-url-search-params"
   },
   "version": "0.0.1",
   "description": "",
