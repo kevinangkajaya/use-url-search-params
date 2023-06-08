@@ -21,7 +21,7 @@ const initUrlSearchParam = (router: any) => {
         const [init_already, set_init_already] = useState(false)
 
         useEffect(() => {
-            let urlSearchParams = new URLSearchParams(router.query as unknown as string)
+            let urlSearchParams = new URLSearchParams(window.location.search)
             let valueFromUrl = urlSearchParams.get(urlSearchParamKey) || initialValue
 
             set_data(valueFromUrl)
@@ -46,7 +46,7 @@ const initUrlSearchParam = (router: any) => {
         }, [data])
 
         const setValueToUrlSearchParams = () => {
-            let urlSearchParams = new URLSearchParams(router.query as unknown as string)
+            let urlSearchParams = new URLSearchParams(window.location.search)
             urlSearchParams.set(urlSearchParamKey, data)
 
             router.push({

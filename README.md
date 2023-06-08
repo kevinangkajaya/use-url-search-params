@@ -1,6 +1,6 @@
 # Use URL Search Params
 ### Introduction
-Only for NextJS! Custom hook using UrlSearchParams to automate link given in the url. For example, when you are changing `<input type="text" id="name" value="John" />`, the result would appear in url (http://localhost?name=John)
+For ReactJS and NextJS! Custom hook using UrlSearchParams to automate link given in the url. For example, when you are changing `<input type="text" id="name" value="John" />`, the result would appear in url (http://localhost?name=John)
 
 ### Installing as a package
 `npm install @kevinangkajaya/use-url-search-params`
@@ -29,7 +29,7 @@ return(
 ### Props initUrlSearchParam
 | Name | Value | Default | Description  |
 | ------------- | ------------- | --- | -----|
-| router | NextJsRouter | null | You need to pass an instance of router (from useRouter) to this variable |
+| router | ReactJs or NextJs Router | null | You need to pass an instance of router (from useRouter) to this variable |
 
 ### Props useUrlSearchParam
 | Name | Value | Default | Description  |
